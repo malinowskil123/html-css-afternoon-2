@@ -1,0 +1,38 @@
+.flex-container {
+  width: 100%;
+  min-height: 15vh;
+  background: cyan;
+  display: flex;
+  /* VVV default row */
+  /* flex-direction: column; */
+  justify-content: space-around; /*horizontal*/
+  align-items: center; /*vert*/
+  flex-wrap: wrap;
+}
+
+.flex-navbar {
+  width: 100%;
+  height: 10vh;
+  background: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-navbar > h1 {
+  margin-left: 5%;
+  color: white;
+  font-size: 22px;
+}
+.flex-navbar > ul {
+  width: 40%;
+  margin-right: 5%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.shadow {
+  /* horizontal, vertical offset, blur radius, spread radius, color */
+  box-shadow: 3px 3px 0px 0px #000000;
+}
